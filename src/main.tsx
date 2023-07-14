@@ -8,7 +8,6 @@ import { Home } from './Pages/Home/Home.tsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css"
 
-import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

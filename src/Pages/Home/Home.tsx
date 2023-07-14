@@ -6,47 +6,36 @@ export const Home = () => {
     return <Stack direction="column" gap={4} sx={{
         alignItems: "center",
         justifyContent: "center",
-        m: 2
+
     }}>
-        <Box sx={{ height: "66.6vh", width: "100%", p: 0 }}>
+        <Box sx={{ height: "66.6vh", width: "100%", mt: 0, pb: 4 }}>
             <Carousel >
                 < Carousel.Item >
                     <img
-                        className="d-block w-100 img"
-                        src=''
+                        className=" w-100"
+                        style={{ "height": "66.6vh", "objectFit": "cover", "filter": "brightness(40%)" }}
+                        src='farm2.jpg'
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>We  sell directily  form the vendors .</h3>
+                        <p></p>
+                        <Button variant='contained'>Know more </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                < Carousel.Item >
                     <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
-                        alt="Second slide"
+                        className=" w-100"
+                        style={{ "height": "66.6vh", "objectFit": "cover", "filter": "brightness(40%)" }}
+                        src='img2.jpg'
+                        alt="First slide"
                     />
-
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Buy vegetables at best prices.</h3>
+                        <p>See shops near you on map . <Button variant='outlined'>maps.</Button></p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                    />
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
             </Carousel>
 
         </Box >

@@ -15,7 +15,7 @@ const pages = ['About Us', 'contact Us', 'Blog'];
 export const Navbar = () => {
 
     return (
-        <AppBar position="sticky" sx={{ top: "0" }}>
+        <AppBar position="sticky" sx={{ top: "0" ,m:0}}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <IconButton
